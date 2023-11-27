@@ -1,0 +1,10 @@
+V :
+	S,A,C,E
+SIGMA:
+	a,c,e
+S: S
+P :
+	S -> AC,
+	A -> a,
+	C -> c,
+	E -> aA | e

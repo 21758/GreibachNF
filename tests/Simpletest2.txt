@@ -1,0 +1,9 @@
+V :
+    E,T,F
+SIGMA:
+    +,*,(,)
+S: E
+P :
+    E -> E+T | T,
+    T -> T*F | F,
+    F -> (E)
